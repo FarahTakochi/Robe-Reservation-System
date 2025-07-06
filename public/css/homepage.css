@@ -1,0 +1,292 @@
+
+.header {
+  padding: 10px 5px;
+  height: 150px;
+  background-color: white;
+  background-image: url(webapp.png);
+  background-size:cover;
+  background-position: center;
+}
+
+
+.header2 {
+    padding: 10px 10px;
+    height: 70px;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 350px;
+    margin-top: 30px;
+}
+
+  .header2 a {
+
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 15px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+
+  .header2 a:hover {
+    color: white;
+    background-color: #00A850;
+  }
+
+.section-image {
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 30px;
+margin-bottom: 50px;
+  height: 550px;
+	background-image: url(kictgraduates.jpg);
+	background-size: cover;
+    background-position: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-image h1 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 13em;
+    font-family: 'Ultra', serif;
+	font-weight: 500;
+}
+
+.section-image header {
+	display: flex;
+	flex: 4;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-to-reserve-wrapper {
+	flex: 1;
+  margin-top: 450px;
+}
+
+.intro-section {
+	display: flex;
+	align-items: center;
+	background-color: #f3f3f3c0;
+	padding: 50px 30px;
+}
+
+.link-to-reserve {
+	color: #ffffff;
+	display: block;
+	border: 2px solid #ffffff;
+	padding: 5px 10px;
+}
+
+a.link-to-reserve:hover {
+	background-color: #00A850;
+	color: white;
+	text-decoration: none;
+}
+
+.intro-section h3 {
+    text-align: center;
+	width: 60%;
+	margin: auto;
+    font-family: sans-serif;
+	font-size: 3em;
+}
+
+.intro-section p {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-family: sans-serif;
+	font-size: 1.8em;
+}
+
+.process-section {
+	display: flex;
+	align-items: center;
+	background-color: #073AD39;
+	padding: 50px 30px;
+}
+.process-section h3{
+  text-align: center;
+  width: 60%
+
+  font-family: sans-serif;
+font-size: 3em;
+}
+.process-section p {
+	text-align: center;
+	margin: auto;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+#corner1 {
+  text-align: center;
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px;
+  width: 500px;
+  height: 60px;
+}
+#corner2 {
+  text-align: center;
+  border-radius: 50px 15px;
+  background: #73AD39;
+  padding: 20px;
+  width: 500px;
+  height: 60px;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   padding : 30px 10px;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+.robeheader{
+  margin-top:30px;
+}
+.robe-intro{
+  background-color: #f3f3f3c0;
+	padding: 50px 30px;
+  background-size: 700px;
+  display: flex;
+}
+.robeimage{
+
+    height: 700px;
+    width : 350px;
+  	background-image: url(robe.jpg);
+  	background-size: cover;
+      background-position: left;
+      display:flex;
+    	flex-direction: column;
+    	justify-content: left;
+    	align-items: left;
+}
+.robeimage p {color: white;}
+.robetext{
+  height: 700px;
+  width : 1000px;
+  background-color: #f3f3f3c0;
+  justify-content: left;
+}
+.robetext article{
+  margin-left: 30px;
+}
+
+.robestripes {
+    padding: 10px 10px;
+    height: 70px;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 350px;
+    margin-top: 30px;
+}
+
+.robestripes h3{
+  text-align: center;
+  background-color: #00A850;
+  height: 40px;
+}
+.stripesimage {
+  padding: 10px 5px;
+  height: 230px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  background-color: white;
+  background-image: url(robestripes.png);
+  background-size:cover;
+  background-position: center;
+}
+.stripes-desc p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+}
+.sizetitle {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.robechart {
+  padding: 10px 5px;
+  height: 550px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  background-color: white;
+  background-image: url(robechart.png);
+  background-size:cover;
+  background-position: center;
+}
+
+.robesizes h3{
+  text-align: center;
+  background-color: #00A850;
+  height: 40px;
+}
+
+.size h3{
+  text-align: center;
+  background-color: #00A850;
+  height: 40px;
+}
+
+.sizelist{
+  text-align : center;
+  align-items: center;
+  margin-left : 30px;
+  margin-right :30px;
+  margin-bottom: 30px;
+}
+
+.sizelist table
+{
+  width:100%;
+}
+
+.sizelist table,th,td{
+  border : 1px solid;
+}
+
+.link-to-reservebutton-wrapper {
+	flex: 1;
+  margin-top: 20px;
+}
+
+.reservebutton {
+	display: flex;
+	align-items: center;
+	background-color: #f3f3f3c0;
+	padding: 50px 30px;
+  text-align: center;
+}
+
+.link-to-reserverobe {
+	color: grey;
+	display: block;
+	border: 2px solid grey;
+	padding: 5px 10px;
+  align-items: center;
+}
+
+a.link-to-reserverobe:hover {
+	background-color: #00A850;
+	color: white;
+	text-decoration: none;
+}

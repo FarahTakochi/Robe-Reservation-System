@@ -1,0 +1,1 @@
+<img size src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/International_Islamic_University_Malaysia_logo.svg/1024px-International_Islamic_University_Malaysia_logo.svg.png" class="iiulogo" style="width:90px;">
